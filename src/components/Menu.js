@@ -20,7 +20,10 @@ function Menu(){
           <Link className="nav-link" to='vehicle-list'>Vehicles</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
+          <Link className="nav-link" to='services'>Services</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to='addVehicle'>Add Vehicle</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to='contact'>Contact</Link>

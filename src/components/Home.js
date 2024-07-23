@@ -1,3 +1,22 @@
+import { useState } from "react";
+/*
+function Home(){
+  const [count,setCount] = useState(0);
+  return(
+    <>
+    <h1>Home Content</h1>
+    <div className="counter">
+      <h6>Counter : {count}</h6>
+      <button type="button" class="btn btn-primary" onClick={()=>setCount(count+1)}>Increase</button>
+      <button type="button" class="btn btn-primary" onClick={()=>setCount(count-1)}>Decrease</button>
+    </div>
+    </>
+  )
+}
+
+*/
+
+
 function Home(){
     return(
 
@@ -295,6 +314,7 @@ function Home(){
     )
   
   }
+
 
   export default Home;
   

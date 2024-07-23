@@ -71,6 +71,10 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
+import Services from "./components/Services";
+import AddVehicle from "./components/AddVehicle";
+import UpdateVehicle from "./components/UpdateVehicle";
+
 
 import { Route,Routes } from "react-router-dom";
 import VehicleList from "./components/Vehicles";
@@ -84,9 +88,14 @@ function App(){
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/vehicle-list" element={<VehicleList/>}/>
+      <Route path="/addVehicle" element={<AddVehicle/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/update-vehicle/:id" element={<UpdateVehicle/>}/>
     </Routes>
     <Footer/>
+
+    
     </>
   )
 }
